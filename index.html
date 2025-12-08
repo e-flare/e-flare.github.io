@@ -43,15 +43,15 @@
     .edeflare {
       font-weight: bold;
     }
-    .edeflare .e { color: #FF6B6B; }
-    .edeflare .dash { color: #FFA06B; }
-    .edeflare .d { color: #FFD56B; }
-    .edeflare .e2 { color: #BEE86B; }
-    .edeflare .f { color: #6BE89E; }
-    .edeflare .l { color: #6BCEE8; }
-    .edeflare .a { color: #6B9EE8; }
-    .edeflare .r { color: #8B6BE8; }
-    .edeflare .e3 { color: #C56BE8; }
+    .edeflare .e { color: #f70009; }
+    .edeflare .dash { color: #d6092a; }
+    .edeflare .d { color: #c40d3d; }
+    .edeflare .e2 { color: #9c1366; }
+    .edeflare .f { color:	#661f9d; }
+    .edeflare .l { color: #651f9e; }
+    .edeflare .a { color: #4225c2; }
+    .edeflare .r { color: #3129d3; }
+    .edeflare .e3 { color: #1c29ce; }
   </style>
 
   <!-- Favicon links removed as files are missing -->
@@ -112,7 +112,7 @@
   <div class="container is-max-desktop">
     <div class="navbar-brand">
       <a class="navbar-item" href="http://e-flare.github.io/">
-        &nbsp;&nbsp;<img src="./my_assets/lens.png" style="height: 28px; vertical-align: top" class="img-hover-effect">&nbsp;&nbsp;<strong>E-Deflare</strong>&nbsp;&nbsp;
+        &nbsp;&nbsp;<img src="./my_assets/lens.png" style="height: 28px; vertical-align: top" class="img-hover-effect">&nbsp;&nbsp;<strong><span class="edeflare"><span class="e">E</span><span class="dash">-</span><span class="d">D</span><span class="e2">e</span><span class="f">f</span><span class="l">l</span><span class="a">a</span><span class="r">r</span><span class="e3">e</span></span></strong>&nbsp;&nbsp;
       </a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
         <span aria-hidden="true"></span>
@@ -125,7 +125,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-item" href="#overview"><i class="fa fa-eye"></i>&nbsp;&nbsp;Overview&nbsp;&nbsp;</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-item" href="#curation"><i class="fa fa-podcast"></i>&nbsp;&nbsp;Data Curation&nbsp;&nbsp;</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-item" href="#benchmark"><i class="fa fa-th-large"></i>&nbsp;&nbsp;Benchmark&nbsp;&nbsp;</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-item" href="#dataset"><i class="fa fa-street-view"></i>&nbsp;&nbsp;Datasets&nbsp;&nbsp;</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-item" href="#experiments"><i class="fa fa-street-view"></i>&nbsp;&nbsp;Experiments&nbsp;&nbsp;</a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="navbar-item" href="#citation"><i class="fa fa-table"></i>&nbsp;&nbsp;Citation&nbsp;&nbsp;</a>
       </div>
     </div>
@@ -212,7 +212,7 @@
             <br>
 
             <p class="is-size-4 has-text-weight-semibold" style="margin-top: 0.5rem; margin-bottom: 1rem;">
-              <span class="tag is-large">✨ The first de-flaring framework for event-based vision ✨</span>
+              <span class="tag is-large">✨&nbsp;<strong><span class="edeflare"><span class="e">E</span><span class="dash">-</span><span class="d">D</span><span class="e2">e</span><span class="f">f</span><span class="l">l</span><span class="a">a</span><span class="r">r</span><span class="e3">e</span></span></strong>: The first de-flaring framework for event-based vision&nbsp;✨</span>
             </p>
 
 
@@ -242,7 +242,7 @@
                 </span>
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <span class="link-block">
-                  <a href="https://huggingface.co/datasets/e-flare/data" target="_blank" class="external-link button video-btn">
+                  <a href="https://huggingface.co/datasets/E-Deflare/data" target="_blank" class="external-link button video-btn">
                     <span class="icon"><i class="fas fa-database"></i></span>
                     <span><b>Dataset</b></span>
                   </a>
@@ -419,7 +419,7 @@
 
 
 
-  <section class="section" style="margin-top: 25px;">
+  <section class="section" style="margin-top: 25px;" id="benchmark">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column is-full-width has-text-centered">
@@ -684,7 +684,7 @@
 
 
 
-  <section class="section" style="margin-top: -20px;">
+  <section class="section" style="margin-top: -20px;" id="experiments">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column is-full-width has-text-centered">
@@ -972,7 +972,7 @@
   </br>
 
 
-  <section class="section" id="BibTeX" style="margin-top: 0px;">
+  <section class="section" style="margin-top: 0px;" id="citation">
     <div class="container is-max-desktop content">
       <h2 class="title is-3 has-text-centered"><i class="fa fa-book"></i></span> BibTeX</h2>
       <pre style="border-radius: 10px;"><code>@article{han2025e-deflare,
